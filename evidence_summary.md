@@ -32,6 +32,3 @@ The IP block remediation was verified using the command sudo ufw status numbered
 
 The Docker evidence showed that an alert could be classified as high risk and linked to an allowlisted remediation action.
 
-Limitation
-
-The main limitation was the Windows agent reliability issue. Although Windows endpoint data was visible in Wazuh, the agent later showed a disconnected status. In a production environment, this would need further review of the Wazuh agent service, the agent key, Windows firewall settings and Wazuh manager logs.
